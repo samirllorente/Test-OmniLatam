@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "photo": "onix.webp",
+      "model": "Onix Turbo Sedan",
+      "year": 2021,
+      "brand": "chevrolet",
+      "price": 669000,
+      "carSpecifications": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit accusamus cupiditate sed inventore repudiandae excepturi omnis porro qui, iusto iste dolorum possimus, quos sapiente vitae ab, voluptatibus voluptate ullam repellat?",
+      "largerImage": "onix-large.webp"
+    },
+    {
+      "id": 2,
+      "photo": "captiva.webp",
+      "model": "Captiva Turbo",
+      "year": 2022,
+      "brand": "chevrolet",
+      "price": 900000,
+      "carSpecifications": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit accusamus cupiditate sed inventore repudiandae excepturi omnis porro qui, iusto iste dolorum possimus, quos sapiente vitae ab, voluptatibus voluptate ullam repellat?",
+      "largerImage": "captiva-large.webp"
+    },
+    {
+      "id": 3,
+      "photo": "tucson.png",
+      "model": "Tucson NX4",
+      "year": 2022,
+      "brand": "hyundai",
+      "price": 930000,
+      "carSpecifications": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit accusamus cupiditate sed inventore repudiandae excepturi omnis porro qui, iusto iste dolorum possimus, quos sapiente vitae ab, voluptatibus voluptate ullam repellat?",
+      "largerImage": "tucson-large.jpeg"
+    },
+    {
+      "id": 4,
+      "photo": "corolla.jpeg",
+      "model": "Corolla",
+      "year": 2020,
+      "brand": "toyota",
+      "price": 550000,
+      "carSpecifications": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit accusamus cupiditate sed inventore repudiandae excepturi omnis porro qui, iusto iste dolorum possimus, quos sapiente vitae ab, voluptatibus voluptate ullam repellat?",
+      "largerImage": "corolla-large.jpeg"
+    },
+    {
+      "id": 5,
+      "photo": "fortuner.png",
+      "model": "Fortuner",
+      "year": 2022,
+      "brand": "toyota",
+      "price": 550000,
+      "carSpecifications": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit accusamus cupiditate sed inventore repudiandae excepturi omnis porro qui, iusto iste dolorum possimus, quos sapiente vitae ab, voluptatibus voluptate ullam repellat?",
+      "largerImage": "fortuner-large.jpeg"
+    },
+    {
+      "id": 6,
+      "photo": "prado.jpeg",
+      "model": "Ppradorado",
+      "year": 2021,
+      "brand": "toyota",
+      "price": 1020000,
+      "carSpecifications": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit accusamus cupiditate sed inventore repudiandae excepturi omnis porro qui, iusto iste dolorum possimus, quos sapiente vitae ab, voluptatibus voluptate ullam repellat?",
+      "largerImage": "prado-large.jpeg"
+    }
+  ]
+}

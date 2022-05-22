@@ -1,0 +1,13 @@
+<img
+  class="img-fluid w-100"
+  src="{{ carData?.largerImage | ImageCdn }}"
+  alt="Car image"
+/>
+<mat-card>
+  <mat-card-content>
+    <p class="h1 text-black-50">{{ carData?.brand | uppercase }} {{ carData?.model | uppercase }}</p>
+    <p class="h5 text-black-50 mb-0"><b>Year: </b>{{ carData?.year }}</p>
+    <p class="h6 text-black-50"><b class="h4">{{ carData?.price | currency }}</b> monthly</p>
+    <p class="h6 text-black-50">{{ carData?.carSpecifications }}</p>
+  </mat-card-content>
+</mat-card>

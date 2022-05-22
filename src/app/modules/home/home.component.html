@@ -1,0 +1,9 @@
+<app-carrousel [images]="images$ | async"></app-carrousel>
+<div class="d-flex justify-content-center mx-3 mt-3">
+    <app-car-filter (searchText)="filterByBrand($event)" class="col-12 col-md-6"></app-car-filter>
+</div>
+<div class="row mx-0 mt-1">
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3" *ngFor="let car of carList$ | async">
+        <app-car-card [cardData]="car" routerLink="/car/{{ car.id }}/detail"></app-car-card>
+    </div>
+</div>

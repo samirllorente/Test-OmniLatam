@@ -53,12 +53,32 @@
     {
       "id": 6,
       "photo": "prado.jpeg",
-      "model": "Ppradorado",
+      "model": "Prado",
       "year": 2021,
       "brand": "toyota",
       "price": 1020000,
       "carSpecifications": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit accusamus cupiditate sed inventore repudiandae excepturi omnis porro qui, iusto iste dolorum possimus, quos sapiente vitae ab, voluptatibus voluptate ullam repellat?",
       "largerImage": "prado-large.jpeg"
+    },
+    {
+      "id": 7,
+      "photo": "mazda-2.jpeg",
+      "model": "Mazda 2 sport",
+      "year": 2021,
+      "brand": "mazda",
+      "price": 856000,
+      "carSpecifications": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit accusamus cupiditate sed inventore repudiandae excepturi omnis porro qui, iusto iste dolorum possimus, quos sapiente vitae ab, voluptatibus voluptate ullam repellat?",
+      "largerImage": "mazda-2-large.jpeg"
+    },
+    {
+      "id": 8,
+      "photo": "mazda-cx9.jpeg",
+      "model": "Mazda cx-9",
+      "year": 2019,
+      "brand": "mazda",
+      "price": 905000,
+      "carSpecifications": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit accusamus cupiditate sed inventore repudiandae excepturi omnis porro qui, iusto iste dolorum possimus, quos sapiente vitae ab, voluptatibus voluptate ullam repellat?",
+      "largerImage": "mazda-cx9-large.jpeg"
     }
   ]
 }

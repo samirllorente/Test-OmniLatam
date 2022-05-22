@@ -1,0 +1,7 @@
+<form [formGroup]="form">
+  <mat-form-field class="w-100">
+    <mat-label>Brand</mat-label>
+    <input type="text" matInput formControlName="search" (keyup)="emitText()"/>
+    <mat-icon matSuffix>search</mat-icon>
+  </mat-form-field>
+</form>

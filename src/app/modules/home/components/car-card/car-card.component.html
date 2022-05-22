@@ -1,0 +1,11 @@
+<mat-card class="d-flex flex-column justify-content-between h-100">
+  <mat-card-header>
+    <mat-card-title>{{ cardData?.model }}</mat-card-title>
+    <mat-card-subtitle>{{ cardData?.brand }}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="{{ cardData?.photo | ImageCdn }}" alt="Car Photo" />
+  <mat-card-content>
+    <p><b>Year: </b>{{ cardData?.year }}</p>
+    <p><b>Price: </b>{{ cardData?.price | currency }}</p>
+  </mat-card-content>
+</mat-card>

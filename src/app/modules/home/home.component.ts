@@ -25,7 +25,9 @@ export class HomeComponent implements OnInit {
   get carList$(): Observable<Array<CarData>> {
     return this.homeFacade.carList$.pipe(
       map((cars) =>
-        cars.filter((car: CarData) => car.brand.includes(this.filter))
+        cars.filter((car: CarData) =>
+          car.brand.toLowerCase().includes(this.filter.toLowerCase())
+        )
       )
     );
   }

@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  host: 'https://samirllorente.github.io/Test-OmniLatam/',
+  host: 'http://omnilatam.nathasoft.com',
 };
